@@ -1,0 +1,1 @@
+cookbook_path ["/home/ubuntu/setup/mharris717dev_cookbook/vendor/cookbooks","/home/ubuntu/setup/mharris717dev_cookbook"]
