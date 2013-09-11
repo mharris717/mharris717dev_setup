@@ -8,4 +8,4 @@ sudo gem install berkshelf chef daemons sinatra mharris_ext bundler
 
 cd ~/setup
 ./update_setup
-sudo chef-solo -c /home/ubuntu/setup/mharris717dev_setup/solo.rb -j /home/ubuntu/setup/mharris717dev_setup/web.json
+./run_chef

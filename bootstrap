@@ -1,0 +1,7 @@
+#! /bin/bash
+
+sudo apt-get -q -y update
+sudo apt-get -q -y install git
+git clone https://github.com/mharris717/mharris717dev_setup.git setup
+cd setup
+./initial_setup
