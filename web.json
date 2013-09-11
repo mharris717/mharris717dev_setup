@@ -1,3 +1,6 @@
 {
-  "run_list": ["recipe[mharris717]"]
+  "run_list": ["recipe[mharris717]"],
+
+  "bundle_path": "/usr/local/bin/bundle",
+  "unicorn_path": "/usr/local/bin/unicorn_rails"
 }
