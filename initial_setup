@@ -1,0 +1,11 @@
+#! /bin/bash
+
+echo gem: --no-ri --no-rdoc > ~/.gemrc
+sudo apt-get -q -y update
+sudo apt-get -q -y install ruby1.9.1 ruby1.9.1-dev rubygems1.9.1 irb1.9.1 ri1.9.1 rdoc1.9.1 build-essential libopenssl-ruby1.9.1 libssl-dev zlib1g-dev git
+sudo apt-get -q -y install libxslt-dev libxml2-dev sqlite3 libsqlite3-dev
+sudo gem install berkshelf chef daemons sinatra mharris_ext bundler
+
+cd ~/setup
+./update_setup
+sudo chef-solo -c /home/ubuntu/setup/mharris717dev_setup/solo.rb -j /home/ubuntu/setup/mharris717dev_setup/web.json
