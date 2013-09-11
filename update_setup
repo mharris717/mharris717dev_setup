@@ -1,3 +1,5 @@
+#! /bin/bash
+
 git pull origin master
 berks update
 berks install --path cookbooks
