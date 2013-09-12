@@ -1,0 +1,5 @@
+#! /bin/bash
+
+./update_setup
+./run_chef
+sudo /var/sites/full_setup
