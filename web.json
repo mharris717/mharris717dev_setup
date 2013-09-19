@@ -3,5 +3,9 @@
 
   "bundle_path": "/usr/local/bin/bundle",
   "unicorn_path": "/usr/local/bin/unicorn_rails",
-  "ruby_bin_path": "/usr/local/bin"
+  "ruby_bin_path": "/usr/local/bin",
+
+  "mharris717": {
+    "server_name": "mharrisdev.com"
+  }
 }
